@@ -1,0 +1,29 @@
+   .increment{
+    margin-top: 150px;
+}
+
+button {
+    background: transparent;
+    border: 2px solid transparent;
+    text-align: center;
+    font-size: 22px;
+    border-radius: 15px;
+    padding: 10px 25px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: all 0.05s ease-in-out;
+}
+
+.minus{
+    background-color: #e63946;
+   
+}
+
+.plus{
+    background-color: #2a9d23;
+    box-shadow: 0 4px 0 darken(#2a9d23, 20%);
+}
+
+button:hover{
+    transform: translateY(-2px);
+}
