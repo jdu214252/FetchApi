@@ -20,7 +20,7 @@ function FetchData() {
 
   return (
     <div>
-      <h1>Список задач:</h1>
+      <h1>Список:</h1>
       <ul>
         {todos.map((todo) => (
           <li>
