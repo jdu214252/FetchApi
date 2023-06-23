@@ -1,6 +1,9 @@
 import { useState } from "react";
+import React from 'react';
 import './Increment.css'
-function Increment(params) {
+import FetchData from "./FetchData";
+
+function Increment() {
     const[count, setCount] = useState(0);
 
    const onClickPlus = () => {
@@ -10,6 +13,8 @@ function Increment(params) {
    const onClickMinus = () => {
     setCount(count - 1);
    }
+
+
     return(
         
     <div className="increment">
@@ -17,6 +22,9 @@ function Increment(params) {
         <h1>{count}</h1>
         <button onClick={onClickMinus} className="minus">Minus - </button>
         <button onClick={onClickPlus} className="plus">+ Plus </button>
+
+
+        <FetchData></FetchData>
     </div>
 
     );
@@ -24,3 +32,8 @@ function Increment(params) {
 }
 
 export default Increment;
+
+
+
+
+
