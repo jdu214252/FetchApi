@@ -11,7 +11,7 @@ function FetchData() {
         const data = await response.json();
         setTodos(data);
       } catch (error) {
-        console.error('Ошибка при получении данных:', error);
+        console.error('Xato:', error);
       }
     };
 
